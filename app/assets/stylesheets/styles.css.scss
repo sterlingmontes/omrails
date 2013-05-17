@@ -1,0 +1,43 @@
+$baseFontFamily: Lato;
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+$btnPrimaryBackgroundHighlight: orange;
+$btnPrimaryBackground: orange;
+$navbarBackgroundHighLight: #98ad87;
+$navbarBackground: white;
+$navbarBrandColor: black;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.btn-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a{
+		color: $gray;
+	}
+}
+@import 'flat-ui';
+
+@mixin override_gradient_vertical() {
+  background-color:transparent;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
